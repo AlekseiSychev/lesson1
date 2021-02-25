@@ -20,7 +20,8 @@ print(weather['city'])
 weather['temperature'] = int(weather['temperature']) - 5
 print (weather)
 
-print(weather.get('country'))
+# print(weather['country']) выдается ошибка KeyError: 'country'
+print(weather.get('country', 'Ключа country не существует'))
 
 print(weather.get('country', 'Россия'))
 
