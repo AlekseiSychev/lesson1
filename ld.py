@@ -11,6 +11,7 @@ print(number[-1])
 print(number[1:5])
 
 del number[-1]
+# del number.remove('Python')
 print(number)
 
 #Dict
